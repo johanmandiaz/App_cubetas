@@ -17,7 +17,8 @@ app = Flask(__name__)
 # CONFIGURACIÓN DE LA BASE DE DATOS
 # ==============================
 # Configura estos parámetros con los datos de tu instancia EC2 o AWS RDS
-DB_HOST = "database-1.cnwwkmsi0zst.us-east-1.rds.amazonaws.com" # O 'localhost' si está en la misma EC2
+#DB_HOST = "database-1.cnwwkmsi0zst.us-east-1.rds.amazonaws.com" # O 'localhost' si está en la misma EC2
+DB_HOST = "database-1.c7eeqocsynzo.us-east-2.rds.amazonaws.com" # O 'localhost' nuevo en EC2 RDS
 DB_USER = "admin"
 DB_PASSWORD = "1234567890"
 DB_NAME = "logistica_cubetas"
